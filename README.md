@@ -45,6 +45,10 @@ The dataset contains some missing values. After treating the missing values, I u
 
 In this project, I used opencv in python to create a script to implement face detector. I used The very popular Viola Davis algorithm to detect face and various features of face like smile and eyes.
  
+### Fashion MNIST
+
+This is an Image dataset. It contains 70,000 images that belong to 10 different classes. I used the keras api to create a convolutional neural network and trained it for 30 epochs to get an accuracy of 91%.
+
 ### IMDB Review Dataset
 
 This dataset consists of two features :
@@ -52,6 +56,12 @@ This dataset consists of two features :
 * Label: Consists of 2 values, 0 or 1. 0 Means it is a negative review whereas 1 means it is a positive review
 
 I used the bag of words model to convert the text into feature matrix and the performed supevised learning using GaussianNB classifier, Decision Tree Classifier, Random Forest Classifier and Gradient Boosting classifier.
+
+### Kaggle Digits Recognizer
+
+This a a dataset from kaggle competition. Here's the link to the kaggle page that contains the dataset and the details of the various features :- https://www.kaggle.com/c/digit-recognizer
+
+The task is to identify the number written on the aimge. I used the keras api of tensorflow to a convolutional neural network to get an accuracy score of "0.99".
 
 ### Kaggle Titanic Dataset
 
